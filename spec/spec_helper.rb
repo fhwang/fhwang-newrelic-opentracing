@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "fhwang/newrelic/opentracing"
+require "newrelic/opentracing"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
