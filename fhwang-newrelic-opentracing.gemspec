@@ -4,7 +4,7 @@ require "newrelic/opentracing/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "fhwang-newrelic-opentracing"
-  spec.version       = NewRelic::Opentracing::VERSION
+  spec.version       = NewRelic::OpenTracing::VERSION
   spec.authors       = ["Francis Hwang"]
   spec.email         = ["sera@fhwang.net"]
 
@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rspec_junit_formatter"
 end

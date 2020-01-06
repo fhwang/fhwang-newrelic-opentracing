@@ -1,5 +1,5 @@
 module NewRelic
-  module Opentracing
-    VERSION = "0.1.0"
+  module OpenTracing
+    VERSION = "0.1.0".freeze
   end
 end
