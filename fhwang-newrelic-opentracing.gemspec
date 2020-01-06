@@ -4,7 +4,7 @@ require "newrelic/opentracing/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "fhwang-newrelic-opentracing"
-  spec.version       = NewRelic::Opentracing::VERSION
+  spec.version       = NewRelic::OpenTracing::VERSION
   spec.authors       = ["Francis Hwang"]
   spec.email         = ["sera@fhwang.net"]
 

@@ -1,6 +1,6 @@
-RSpec.describe NewRelic::Opentracing do
+RSpec.describe NewRelic::OpenTracing do
   it "has a version number" do
-    expect(NewRelic::Opentracing::VERSION).not_to be nil
+    expect(NewRelic::OpenTracing::VERSION).not_to be nil
   end
 
   it "does something useful" do
